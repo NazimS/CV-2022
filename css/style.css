@@ -287,5 +287,8 @@ ul li {
         border-right: none;
         text-align: left;
     }
+    ul {
+        gap: 0px;
+    }
     
 }
