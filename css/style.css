@@ -11,6 +11,7 @@
     --linkedin: #0072b1;
     --twitcolor: #00acee;
     --wpcolor: #25d366;
+    --ghcolor: rgb(41, 41, 41);;
 }
 body {
     background: var(--maincolor);
@@ -147,6 +148,12 @@ p {
                 0 0 6px var(--wpcolor),
                 0 0 15px var(--wpcolor);
 }
+.social #gh a:hover {
+    background: var(--ghcolor);
+    box-shadow: 0 0 3px var(--ghcolor),
+                0 0 6px var(--ghcolor),
+                0 0 15px var(--ghcolor);
+}
 .social a i {
     font-size: 1.5em;
     color: #f8eeee;
@@ -154,6 +161,9 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.social #gh i {
+    font-size: 1.7rem;
 }
 ul {
     position: relative;
@@ -241,7 +251,10 @@ ul li {
     width: 70%;
 }
 .javascript {
-    width: 40%;
+    width: 45%;
+}
+.jQuery {
+    width: 45%;
 }
 .react {
     width: 30%;
